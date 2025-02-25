@@ -38,6 +38,26 @@ body {
   color: #1ba94c;
 }
 
+.btn-back-home {
+  background-color: #1092c5;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(59, 209, 255, 0.705);
+  font-size: 18.005px;
+  padding-left: 1.528em;
+  padding-right: 1.528em;
+  padding-top: 0;
+  padding-bottom: 0;
+  min-height: 2.778em;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-back-home:hover {
+  background-color: #ffffff;
+  border: 1px solid  #1092c5;
+  color:  #1092c5;
+}
+
 .characters {
   padding: 50px;
 }
@@ -59,6 +79,19 @@ body {
   margin: 20px 10px;
   border-radius: 10px;
   align-items: flex-start;
+}
+
+.character-container:hover {
+  box-shadow: #ffffff 0px 0px 20px 5px;
+  border-radius: 10px;
+}
+
+.character {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #000;
+  margin: 10px;
+  transition: box - shadow 0.3s ease;
 }
 
 .character-container h3 {
